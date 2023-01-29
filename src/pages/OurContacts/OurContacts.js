@@ -1,6 +1,5 @@
 import React from 'react'
-import cover from '../../images/cover.jpg'
-
+import './OurContacts.css'
 const OurContacts = () => {
   return (
     <div className='contacts'>
