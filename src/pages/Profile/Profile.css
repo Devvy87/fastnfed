@@ -1,0 +1,27 @@
+.profile{
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    background-color: #D2691E;
+    border: 5px solid #dcdcdc;
+
+  }
+  
+  .profile p {
+    text-align: left;
+  }
+  
+  .profile > span{
+    color: blue;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .profile > span {
+    height: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: black;
+    color: #D2691E;
+  }
