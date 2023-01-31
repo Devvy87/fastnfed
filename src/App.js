@@ -32,7 +32,7 @@ function App() {
      <Route exact path="/" element={
           isLoggedIn 
           ? <Profile/> 
-          : <Navigate to='/signin'/>
+          : <Navigate to='/signin'/> 
           
         } />
         <Route path="signin" element={
