@@ -7,7 +7,7 @@ const Home = () => {
 <div className="container">
   <h1>Indian curry</h1>
   <p>Discover India with us!</p>
-  <p>Create an account and get a 40% discount on all menu! </p>
+  <p>Create an account and  get a <br /> 40% discount  on all menu! </p>
   <Link to='/menu'>  <button>Order now!</button></Link>
 
 </div>
