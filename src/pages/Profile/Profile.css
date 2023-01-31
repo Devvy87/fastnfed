@@ -1,27 +1,33 @@
 .profile{
-    width: 90%;
-    max-width: 400px;
-    padding: 20px;
-    text-align: center;
-    margin: auto;
-    background-color: #D2691E;
-    border: 5px solid #dcdcdc;
-
+ 
+    border: 5px dotted #bbb; /* Dotted border */
+    width: 80%;
+    border-radius: 15px; /* Rounded border */
+    margin: 0 auto; /* Center the coupon */
+    max-width: 600px;
+text-align: center;
   }
   
   .profile p {
     text-align: left;
+    font-size: 20px;
+    font-weight: bold;
   }
+  .profile .discount{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+  }
+
   
-  .profile > span{
-    color: blue;
-    margin-top: 30px;
-    cursor: pointer;
-  }
-  .profile > span {
-    height: 40px;
+  .profile > button {
+    margin-top: 50px;
+    padding-top: 10px;
+    height: 10px;
     font-size: 16px;
     text-decoration: none;
     background-color: black;
     color: #D2691E;
+    font-weight: 800;
+    text-align: center;
   }

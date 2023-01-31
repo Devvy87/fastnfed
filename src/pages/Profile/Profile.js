@@ -32,8 +32,11 @@ const generatePromocode = (word) => {
             <strong>Email: </strong>
             {`${user.email}`}
           </p>
-          <p>Your personal code: {generatePromocode()}</p>
-            <span onClick={handleSignOut}>Sign Out</span>
+          <p><strong>Your personal code:</strong> {generatePromocode()}</p>
+          <br />
+          <p className='discount'><strong>Discount 40% on food and drinks from the main menu in a "FastnFed"!</strong></p>
+
+            <button  onClick={handleSignOut}>Sign Out</button>
           </div>
         </div>
     )

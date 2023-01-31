@@ -2,7 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   user: {},
-  isLoggedIn: false,
+  isLoggedIn: false
+ 
 }
 
 const userSlice = createSlice({
@@ -17,6 +18,7 @@ const userSlice = createSlice({
       state.user = {}
       state.isLoggedIn = false
     }
+
   }
 })
 

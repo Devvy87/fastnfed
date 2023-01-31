@@ -14,9 +14,16 @@ function App() {
 
   const isLoggedIn = useSelector(state => state.isLoggedIn)
 
+
   return (
     <div className="App">
-      <Header  />
+      
+         <Header /> 
+     
+      
+
+
+    
      
       <Routes>
      <Route path='/home'element={<Home/>}/>

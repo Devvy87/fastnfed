@@ -2,8 +2,10 @@ import React from 'react'
 import logo from '../images/logo.png'
 import { Link } from 'react-router-dom'
 import './Header.css'
-const Header = (props) => {
-  let accountState = 'Account'
+import { useSelector } from 'react-redux'
+const Header = () => {
+  const user = useSelector(state => state.user)
+  const nameToRender = user.name || 'Account'
   return (
  <div className="header">
     <div className="left">
@@ -13,7 +15,7 @@ const Header = (props) => {
 <Link to="/home">Home</Link>
 <Link to="/menu">Menu</Link>
 <Link to="/contacts">Contacts</Link>
-<Link to="/signin"> {accountState}</Link>
+<Link to="/signin"> {nameToRender}</Link>
 
     </div>
  </div>
