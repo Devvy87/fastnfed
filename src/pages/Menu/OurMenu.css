@@ -1,6 +1,5 @@
 .menu {
     width: 100%;
-    height: 130vh;
     text-align: center;
     background: #D2691E;
     padding: 20px;
@@ -19,10 +18,10 @@
 }
 .menuItem {
     width: 400px;
-    height: 600px;
+    height: 60vh;
     background-color: aliceblue;
     opacity: 0.9;
-    margin: 10px;
+    margin: 20px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -57,14 +56,27 @@
     text-decoration: none;
 }
 .menuItem .addToOrder {
-    margin-top: 50px;
-    padding-top: 10px;
-    height: 10px;
-    font-size: 16px;
-    text-decoration: none;
+    position: relative;
+  
+    width: max-content;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+   
     background-color: black;
     color: #D2691E;
-    font-weight: 800;
-    text-align: center;
+    
+}
+@media (max-width:600px) {
+    .menuItem .addToOrder {
+        position: relative;
+  
+        width: max-content;
+        margin: -20px auto;
+       
+       
+        background-color: black;
+        color: #D2691E;
+    }
 }
 
